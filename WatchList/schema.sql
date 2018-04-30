@@ -1,0 +1,10 @@
+DROP DATABASE movieplannerdb;
+CREATE DATABASE moviePlannerDB;
+
+USE moviePlannerDB;
+
+CREATE TABLE movies (
+id INTEGER(10) PRIMARY KEY AUTO_INCREMENT,
+movie VARCHAR(50) NOT NULL
+);
+
